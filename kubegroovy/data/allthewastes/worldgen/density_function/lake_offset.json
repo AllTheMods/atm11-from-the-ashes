@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mul",
+  "argument1": -0.2,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "allthewastes:lake_mask",
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": 1.0,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1.0,
+        "argument2": "allthewastes:mountain_mask"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": "allthewastes:mountain_mask",
+    "argument2": "allthewastes:mountain_mask"
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": 0.27,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.09,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "allthewastes:mountain_detail",
+        "xz_scale": 0.6,
+        "y_scale": 0.0
+      }
+    }
+  }
+}
